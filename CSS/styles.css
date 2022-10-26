@@ -1,0 +1,81 @@
+/* BASE-GERAL */
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ /* suavizando a barra de rolagem*/
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: .938rem;
+    background-color: white;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* LAYOUT-LAYOUT*/
+
+.header{
+    max-width: 768px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.nav{
+    max-width: 968px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo, .nav__toggle{
+font-weight: 500;
+}
+
+.nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 5rem;
+}
+
+.show-menu{
+    bottom: 0;
+}
+
