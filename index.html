@@ -69,7 +69,7 @@
 
     <main><!--main-->
 
-         <!--<header> <!--Inicio Header--
+         <!--<header>Inicio Header--
             <a href="/imgs/Logo1.jPG"><img src="400" alt="400"></a>
             <ul>
                 <li><a href="">HOME</a></li> <--
@@ -78,8 +78,67 @@
                 <li><a href="">PROJECTS</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul>
-        </header> <!--Fim Header-->
-        <section>Home</section><!--Home/Inicio-->
+        </header> Fim Header-->
+
+        <!--home/Inicio-->
+        <section class="home section" id="home">
+            <article class="home__container container grid">
+                <article class="home content grid">
+                    <article class="home__social">
+
+                        <a href="https://www.linkedin.com/in/nelsonvillarreal/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/onyyzz/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/NelsonVillarreal" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </article>
+                    <article class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='-30' y='' href="./assets/images/lookme.jpg"/>
+                            </g>
+                        </svg>
+                    </article>
+
+                    <article class="home__data">
+                        <h1 class="home__title">Hi, I'am Nelson Villarreal</h1>
+                        <h3 class="home__subtitle">Frontend Developer</h3>
+                        <p class="home__description">I have experience in Front End and development knowledge, producing quality work.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me <i class="uil uil-telegram-alt button__icon"></i>
+                        </a>
+
+                    </article>
+                </article>
+                <!--<article class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </article>
+            </article>
+                </article>
+            </article>
+        </section><!--Home/Fim-->
+
+
         <section>About</section><!--About/sobre-->
         <section>Skills</section><!--Skill/Habilidades-->
             <div><!--RECUERDA HACER 1 DIV PARA CADA Habilidad eso dentro de um container grid-->
@@ -88,9 +147,49 @@
         <section>Services</section><!--Services/Serviçes-Soluçoes-->
         <section>PortFolio</section><!--Portafolio/Projetos-->
         <section>Contac Me</section><!--Contac-me/Contacto-->
-        <footer><p>CopyRight by Nelson Vilalrreal</p></footer><!--Footer/Roda Pe-->
 
-            <h2>Sobre Mi</h2>
+
+        <footer class="footer"><!--Footer/Roda Pe-->
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/nelsonvillarreal/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/onyyzz/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/NelsonVillarreal" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">Nelson Villarreal. Derechos Reservados</p>
+
+            </div>
+        </div>
+        </footer>
+
+            <!-- <h2>Sobre Mi</h2>
                 <p>Visionário da tecnologia, atualmente cursando "Desenvolvedor FullStack". Tenho habilidade em buscar
                 conhecimentos em linguagens de programação, com vistas à otimização de rotinas e solução de problemas.
                 Minha atividade presente é de condutor de aplicativo, em razão das contingências impostas ao mercado pela
@@ -105,6 +204,8 @@
 
                 <p>Analisis e Desenvolvimento de Sistemas, Pela Marta Falçao WYDEN</p>
                 <p>Curso desenvolvedor FullStack, Pelo instituto Visão Amazonica</p>
-                <p>Desenvolvedor Front End com TOTI</p>
+                <p>Desenvolvedor Front End com TOTI</p> --> 
+
+
     </main>
 </body>

@@ -1,3 +1,17 @@
+/* Buttom Dark/Oscuro */
+
+.nav__btns{
+    display: flex;
+    align-items: center;
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: black;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
 /* BASE-GERAL */
 
 * {
@@ -7,7 +21,6 @@
 }
 
 html{ /* suavizando a barra de rolagem*/
-    scroll-behavior: smooth;
 }
 
 body{
@@ -26,17 +39,12 @@ a{
     text-decoration: none;
 }
 
-/* LAYOUT-LAYOUT*/
+/* LAYOUT-LAYOUT
 
-.header{
-    max-width: 768px;
+.container {
+    max-width: 768;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}
-
-.grid {
-    display: grid;
-    gap: 1.5rem;
 }
 
 header{
@@ -44,7 +52,15 @@ header{
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 100;
 }
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+} */
+
+/* (Navegaçao) - NAV*/ 
 
 .nav{
     max-width: 968px;
@@ -79,3 +95,48 @@ font-weight: 500;
     bottom: 0;
 }
 
+/* Home*/
+
+.home__container{
+gap: 1rem;
+}
+
+.home__content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home__blob{
+    width: 200px;
+}
+
+/* Footer - Rodape*/
+
+.footer{
+    padding-top: 2rem;
+}
+
+.footer__container{
+    row-gap: 2rem;
+}
+
+.footer__bg{
+    padding-top: 2rem 0 3rem;
+}
+
+.footer__title{
+    margin-bottom: 01.25rem;
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__copy{
+    font-size: .817rem;
+    text-align: center;
+    margin-top: 3rem;
+}
