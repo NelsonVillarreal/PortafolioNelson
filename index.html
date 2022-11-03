@@ -12,7 +12,6 @@
     <!-- Swiper Libreria-->
     <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
 
-
     <!--Style Css-->
     <link rel="stylesheet" href="CSS/styles.css">
 
@@ -69,22 +68,10 @@
 
     <main class="main"><!--main-->
 
-         <!--<header>Inicio Header--
-            <a href="/imgs/Logo1.jPG"><img src="400" alt="400"></a>
-            <ul>
-                <li><a href="">HOME</a></li> <--
-                <li><a href="">SOBRE</a></li> <--
-                <li><a href="">CAREERS</a></li>
-                <li><a href="">PROJECTS</a></li>
-                <li><a href="">CONTACT</a></li>
-            </ul>
-        </header> Fim Header-->
-
-        <!--home/Inicio-->
-        <section class="home section" id="home">
+        <section class="home section" id="home"> <!--Home/Inicio-->
             <article class="home__container container grid">
-                <article class="home content grid">
-                    <article class="home__social">
+                <article class="home__content grid">
+                    <article class="home__social"><!--Ta certo, o problema esta no SVG ou HomeData-->
 
                         <a href="https://www.linkedin.com/in/nelsonvillarreal/" target="_blank" class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
@@ -97,7 +84,8 @@
                         <a href="https://github.com/NelsonVillarreal" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                    </article>
+                    </article><!--Ta certo aqui, o problema esta no SVG ou HomeData-->
+                    
                     <article class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
@@ -119,21 +107,18 @@
                     <article class="home__data">
                         <h1 class="home__title">Hi, I'am Nelson Villarreal</h1>
                         <h3 class="home__subtitle">Frontend Developer</h3>
-                        <p class="home__description">I have experience in Front End and development knowledge, producing quality work.</p>
-                        <a href="#contact" class="button button--flex">
-                            Contact me <i class="uil uil-telegram-alt button__icon"></i>
+                        <p class="home__description">I have experience in web desing and development knowledge, producing quality work.</p>
+                        <a href="#contact" class="button button--flex">Contact me <i class="uil uil-telegram-alt button__icon"></i>
                         </a>
-
                     </article>
-                </article>
-                <!--<article class="home__scroll">
+
+                </article>                
+                <article class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                         <span class="home__scroll-name">Scroll down</span>
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
-                </article>
-            </article>
                 </article>
             </article>
         </section><!--Home/Fim-->
@@ -165,9 +150,68 @@
         <section>Qualification</section><!--Qualification/Cualificacion-->
         <section>Services</section><!--Services/Serviçes-Soluçoes-->
         <section>PortFolio</section><!--Portafolio/Projetos-->
-        <section>Contac Me</section><!--Contac-me/Contacto-->
 
-    
+
+
+        <section class="contact section" id="contact"><!--Contac-me/Contacto-->
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-instagram contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Chat Me</h3>
+                            <span class="contact__subtitle">@onyyzz</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">devnelsonvillarreal@gmail.com</span>
+                        </div>
+
+                    </div>
+
+                    <div class="contact__infotmation">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Manaus City - Brazil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="contact__content">
+                        <label for="e">Name</label>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="">Project</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Message</label>
+                        <textarea name="message__textarea" id="" cols="0" rows="7" class=""></textarea>
+                    </div>
+                </form>
+                
+            </div>
+            
+        </section>
+
+        
     </main> <!--Final main-->
 
     <footer class="footer"><!--Footer/Roda Pe-->
