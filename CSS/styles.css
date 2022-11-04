@@ -284,6 +284,56 @@ gap: 1rem;
     align-items: center;
 }
 
+/*==================== ABOUT =====================*/
+
+.about__img{
+    width: 200px;
+    border-radius: 3rem;
+    justify-self: center;
+}
+
+.about__description{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+about__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.about__info-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ac3115;
+}
+
+.about__info-name{
+    font-size: .75rem;
+}
+
+.about__info-title, .about__info-name{
+    display: block;
+    text-align: center;
+}
+
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/*=================== SKILLS ==================*/
+
+.skills__container{
+    row-gap: 0;
+}
+
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* CONTACT ME - CONTACTO*/
 
 .contact__container{
