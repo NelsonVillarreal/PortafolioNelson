@@ -1,4 +1,4 @@
-const navMenu = document.getElementById('nav-menu');
+//const navMenu = document.getElementById('nav-menu');
 
 /* ----- MENU SHOW -----*/
 /* encaixar en una ventanita el menu
