@@ -40,16 +40,16 @@
                            <i class="uil uil-file-alt nav__icon"></i> Skills
                        </a></li>
    
-                       <li class="nav__item"><a href="#services" class="nav__link">
-                           <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                       <li class="nav__item"><a href="#portfolio" class="nav__link">
+                           <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
                        </a></li>
                        
-                       <li class="nav__item"><a href="#portfolio" class="nav__link">
-                           <i class="uil uil-scenery nav__icon"></i> Portfolio
+                       <li class="nav__item"><a href="#contact" class="nav__link">
+                           <i class="uil uil-scenery nav__icon"></i> Contact
                        </a></li>
    
-                       <li class="nav__item"><a href="#contact" class="nav__link">
-                           <i class="uil uil-telegram-alt nav__icon"></i> Contact
+                       <li class="nav__item"><a href="#register" class="nav__link">
+                           <i class="uil uil-telegram-alt nav__icon"></i> Register
                        </a></li>
                    </ul>
                    <i class="uil uil-times  nav__close" id="nav-close"></i>
@@ -66,12 +66,12 @@
             </nav> 
     </header>
 
-    <main class="main"><!--main-->
-
-        <section class="home section" id="home"> <!--Home/Inicio-->
+    <main class="main"><!-- MAIN -->
+ <!-- ======================HOME============================-->
+        <section class="home section" id="home">
             <article class="home__container container grid">
                 <article class="home__content grid">
-                    <article class="home__social"><!--Ta certo, o problema esta no SVG ou HomeData-->
+                    <article class="home__social">
 
                         <a href="https://www.linkedin.com/in/nelsonvillarreal/" target="_blank" class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
@@ -84,7 +84,7 @@
                         <a href="https://github.com/NelsonVillarreal" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                    </article><!--Ta certo aqui, o problema esta no SVG ou HomeData-->
+                    </article>
                     
                     <article class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -133,13 +133,9 @@
 
                 <article class="about__data">
                     <p class="about__description">
-                        Visionário da tecnologia, atualmente cursando "Desenvolvedor FullStack". Tenho habilidade em buscar
-                        conhecimentos em linguagens de programação, com vistas à otimização de rotinas e solução de problemas.
-                        Minha atividade presente é de condutor de aplicativo, em razão das contingências impostas ao mercado pela
-                        crise sanitária.
-                        Tenho experiência em logística e minha formação acadêmica (trancada no momento) é em Ciências Contábeis.
-                        Contudo, sou dinâmico e vejo o universo da Tecnologia da Informação como o elemento fundamental para a
-                        efetiva condução das demais áreas.
+                        Young man, with kwwledge and passion, for web development,<br>
+                        always striving for <br>
+                        deliver quality work.
                     </p>
 
                     <article class="about__info">
@@ -164,7 +160,7 @@
                         </article>
                     </article>
                     <article class="about__buttons">
-                        <a download="" href="" class="button button--flex">Download CV
+                        <a download="" href="./PDF/Resume-NelsonVillarreal.pdf" class="button button--flex">Download CV
                             <i class="uil uil-impot button__icon"></i>
                         </a>
                     </article>
@@ -180,86 +176,413 @@
             <div class="skills__container container grid">
                 <div>
                     <!--============== SKILL 1 ============ Dos ideas, Skill Font e Back dividido en dos-->
-                     
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Front Developer</h1>
+                                <span class="skills__subtitle">1year experience</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">   
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                     </div>
+
                 </div>
+                <!--=============== SKILLS 2 ===============-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-database skills__icon"></i>
+
+                        <div>
+                            <hi class="skills__titles">Backend developer</hi>
+                            <span class="skills__subtitle">6 months experience</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"><i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Node Js</h3>
+                                <span class="skills__number">65%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__node"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MySQL</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mysql"></span>
+                            </div>
+                        </div>
+
+                    </diav>
+                 </div>
 
             </div>
+
         </section>
 
+        <!-- ================== QUALIFICATION =================-->
+          <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button--flex qualification__active" data-target="#education">
+                            Education
+                        </div>
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualifications__sections">
+
+                        <div class="qualification__content qualification__active" data-content="education">
+
+                            <!--========= QUALIFICATION 1 =========-->
+                            
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Martha Falçao Wyden</h3>
+                                        <span class="qualification__subtitle">Manaus City - Brazil</span>
+
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2022 - 2024
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+
+                                </div>
+
+                                <!-- ============== QuALIFICATION 2 =========-->
+                                <div class="qualification__data">
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Institute Visao Amazonica</h3>
+                                        <span class="qualification__subtitle">development Full Stack</span>
+
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2022
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ============ QUALIFICATION 3 =========== -->
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Front End Developer</h3>
+                                        <span class="qualification__subtitle">TOTI</span>
+
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2022 - Currently
+                                        </div>
+
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <!--<span class="qualification__line"></span>-->
+                                    </div>
+
+                                    <div></div>
+
+                                </div>
+                            
 
 
+                            <!-- ========= QUALIFICATION CONTENT ============-->
+                            <div class="qualification__content" data-content id="work">
 
+                                <div class="qualification__data">
+                                    
+                                    <div></div>
 
-            <div><!--RECUERDA HACER 1 DIV PARA CADA Habilidad eso dentro de um container grid-->
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Codinarts</h3>
+                                        <span class="qualification__subtitle">Full Stack development</span>
+
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2022
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+          </section>
+<!--==================== PORTFOLIO ====================-->
+<section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <span class="section__subtitle">My recent projects</span>
+
+    <div class="portfolio__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+               <!--==================== PORTFOLIO 1====================-->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./images/Portfolio1.jpg" alt="elearning, nelsonvillarreal" class="portfolio__img">
+
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Personal Portfolio</h3>
+                    <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+
+                    <a href="https://nelsonvillarreal.github.io/PortafolioNelson/"  class="button button--flex button--small portfolio__button">
+                        View Site
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
             </div>
-        <section>Qualification</section><!--Qualification/Cualificacion-->
-        <section>Services</section><!--Services/Serviçes-Soluçoes-->
-        <section>PortFolio</section><!--Portafolio/Projetos-->
+
+            <!--==================== PORTFOLIO 2====================-->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="images/LandePage.png" alt="nelsonvillarreal" class="portfolio__img">
+
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">LANDING PAGE</h3>
+                    <p class="portfolio__description">Landing Development using CSS.</p>
+
+                    <a href="https://nelsonvillarreal.github.io/LandePage/" class="button button--flex button--small portfolio__button">
+                        View Site
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
 
 
 
-        <section class="contact section" id="contact"><!--Contac-me/Contacto-->
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Get in touch</span>
-            <div class="contact__container container grid">
+        <!-- ENDS -->
+        </div>
+
+
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination-bullets"></div>
+    </div>
+
+    
+</section>
+<!--===================== CONTACT ME===================-->
+
+<section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+    <div class="contact__container container grid">
+        <div>
+            <div class="contact__information">
+                <i class="uil uil-instagram contact__icon"></i>
+
                 <div>
-                    <div class="contact__information">
-                        <i class="uil uil-instagram contact__icon"></i>
+                    <h3 class="contact__title">Chat Me</h3>
+                    <span class="contact__subtitle">@onyyzz</span>
+                </div>
+            </div>
 
-                        <div>
-                            <h3 class="contact__title">Chat Me</h3>
-                            <span class="contact__subtitle">@onyyzz</span>
-                        </div>
-                    </div>
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
 
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">devnelsonvillarreal@gmail.com</span>
-                        </div>
-
-                    </div>
-
-                    <div class="contact__infotmation">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Manaus City - Brazil</span>
-                        </div>
-                    </div>
+                <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">devnelsonvillarreal@gmail.com</span>
                 </div>
 
-                <form>
-                    <div class="contact__content">
-                        <label for="e">Name</label>
-                        <input type="text">
-                    </div>
-
-                    <div>
-                        <label for="">Email</label>
-                        <input type="email">
-                    </div>
-                    <div>
-                        <label for="">Project</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for="">Message</label>
-                        <textarea name="message__textarea" id="" cols="0" rows="7" class=""></textarea>
-                    </div>
-                </form>
-                
             </div>
-            
-        </section>
 
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__subtitle">Manaus City - Brazil</span>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact__form grid" name="form__validation" netlify>
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label for="name__principal" class="contact__label">Name</label>
+                    <input type="text" class="contact__input" name="name__principal">
+                </div>
+
+                <div class="contact__content">
+                    <label for="email__principal" class="contact__label">Email</label>
+                    <input type="email" class="contact__input" name="email__principal">
+                </div>
+            </div>  
+            <div class="contact__content">  
+                <div>
+                    <label for="Project__principal" class="contact__label">Project</label>
+                    <input type="text" class="contact__input" name="project__principal">
+                </div>
+            </div>    
+                <div class="contact__content">
+                    <label for="message__textarea" class="contact__label">Message</label>
+                    <textarea name="message__textarea" id="" cols="0" rows="7" class="contact__input"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" class="button button--flex contact__submit" value="Send message">
+                </div>
+        </form>
         
+    </div>
+    
+</section>
+
+<!-- ===================== FORMU ====================-->
+<!--
+    <section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+    <div class="contact__container container grid">
+-->
+
+<Section class="register section" id="register"> 
+    <h2 class="section__title">Register User</h2>
+    <span class="section__subtitle">form with verification</span>
+<div class="container__formm">
+    <div class="header">
+        <h2>Create Account</h2>
+    </div>
+    <form class="form" id="form">
+
+        <div class="form-control">
+
+            <label for="username" >Nome</label>
+            <input type="text" id="username">
+            <i class="img-success" ><img src="/images/success-icon.svg" alt=""></i>
+            <i class="img-error" ><img src="images/error-icon.svg" alt=""></i>
+
+            <small>Error Message</small>
+
+        </div>
+
+        <div class="form-control">
+
+            <label>Email</label>
+            <input type="email" id="email">
+            <i class="img-success" ><img src="/images/success-icon.svg" alt=""></i>
+            <i class="img-error" ><img src="/images/error-icon.svg" alt=""></i>
+
+            <small>Error Message</small>
+
+        </div>
+
+        <div class="form-control">
+
+            <label>Senha</label>
+            <input type="password" id="password">
+            <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+            <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+
+            <small>Error Message</small>
+
+        </div>
+
+        <div class="form-control">
+
+            <label>Confirme sua senha</label>
+            <input type="password" id="password-two">
+            <i class="img-success" ><img src="./images/success-icon.svg" alt=""></i>
+            <i class="img-error" ><img src="./images/error-icon.svg" alt=""></i>
+
+            <small>Error Message</small>
+
+        </div>
+
+        <button type="submit" >ENVIAR</button>
+    </form>
+</div>
+
+        </Section>
     </main> <!--Final main-->
 
-    <footer class="footer"><!--Footer/Roda Pe-->
+    <!-- ======================= FOOTER ====================== -->
+    <footer class="footer">
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
@@ -304,20 +627,16 @@
         </div>
  </footer>
 
-            <!-- <h2>Habilidades</h2>
-
-            <H2>Formação acadêmica</H2>
-
-                <p>Analisis e Desenvolvimento de Sistemas, Pela Marta Falçao WYDEN</p>
-                <p>Curso desenvolvedor FullStack, Pelo instituto Visão Amazonica</p>
-                <p>Desenvolvedor Front End com TOTI</p> --> 
-    
-<!--RECUERDA COLOCAR EL SCROLL (en el inicio,medio y final)-->
+ <!-- ========= Scroll Top======-->
+ <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-double-up scrollup__icon"></i>
+ </a>
 
 <!--=========SWIPER JS=========-->
 <script src="./JS/swiper-bundle.min.js"></script>
 
         
-        
+<!-- ========MAIN========-->    
+<script src="./JS/main.js"></script>
         
 </body>
